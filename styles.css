@@ -1,0 +1,85 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for header */
+header {
+  background-color: #d2b48c; /* Tan color for a rustic feel */
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+}
+
+/* Basic styling for home section */
+.home {
+  text-align: center;
+  padding: 25px;
+  background-color: #d2b48c;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1px;
+  /* margin-bottom: 2px; */
+}
+
+h1 {
+  color: #8b4513; /* Saddle Brown color */
+}
+
+h2,
+p {
+  color: #333;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8b4513;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Basic styling for menu section */
+.menu {
+  text-align: center;
+  padding: 50px;
+  background-color: #d2b48c;
+}
+
+.menu-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Basic styling for about section */
+.about {
+  text-align: center;
+  padding: 50px;
+  background-color: #d2b48c;
+}
+
+h2 {
+  color: #8b4513;
+}
+
+/* Add additional styling as needed */
